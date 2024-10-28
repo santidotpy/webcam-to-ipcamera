@@ -22,3 +22,6 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+
+> [!NOTE]  
+> If you have multiple webcams, you can specify the webcam index in the `app.py` file. You can run the `list_webcams.py` script to list all the available webcams and their indexes.
