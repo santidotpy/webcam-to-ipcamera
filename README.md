@@ -1,7 +1,7 @@
 # webcam-to-ipcamera
 
 ## Description
-This project is a simple implementation of a webcam to IP camera. It uses OpenCV to capture the webcam feed and Flask to serve the feed as an IP camera.
+This project is a simple implementation of a webcam to IP camera. It uses OpenCV to capture the webcam feed and Flask to serve the feed as an IP camera. The feed can be accessed by visiting the URL `http://localhost:5000/cctv`. You can access the feed from another device on the same network by replacing `localhost` with the IP address of the host machine.
 
 ### Create virtual environment
 ```bash
