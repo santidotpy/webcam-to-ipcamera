@@ -17,7 +17,7 @@ def generate_frames():
             break
         else:
             # Uncomment to apply night vision effect
-            frame = apply_night_filter(frame)
+            # frame = apply_night_filter(frame)
             
             current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             # Define text overlay
@@ -45,4 +45,5 @@ def video_feed():
     return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == "__main__":
+    print("Go to /ccvt to check the video feed")
     app.run(host='0.0.0.0', port=5000)
