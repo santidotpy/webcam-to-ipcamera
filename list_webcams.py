@@ -13,4 +13,4 @@ def list_cameras():
         index += 1
     return arr
 
-print("Available camera indices:", list_cameras())
+print("Available cameras indexes: ", list_cameras())
